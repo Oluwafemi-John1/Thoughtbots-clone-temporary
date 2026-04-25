@@ -19,11 +19,30 @@ body {
 .navigation {
     display: flex;
     font-family: "JetBrains Mono", monospace;
-    font-optical-sizing: auto;
     font-weight: 500;
-    font-style: normal;
+    /* border: 1px solid chartreuse; */
 }
 
-.navigation div {
+.navigation div, .navigation a {
+    margin: 0 15px;
     font-size: 15.84px !important;
+}
+
+.caseStudies {
+    color: #FAF9F9;
+    text-decoration: none;
+}
+
+.caseStudies:hover {
+    text-decoration: 1px solid underline #FFC725;
+    color: #FFC725;
+}
+
+.blog {
+    color: #FFC725;
+    text-decoration: none;
+}
+
+.blog:hover {
+    text-decoration: 1px solid underline #FFC725;
 }
