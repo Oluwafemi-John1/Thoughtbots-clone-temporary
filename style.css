@@ -46,3 +46,20 @@ body {
 .blog:hover {
     text-decoration: 1px solid underline #FFC725;
 }
+
+.getStarted {
+    background-color: #CE2D2D;
+    text-align: center;
+    color: #FAF9F9;
+    padding: 10px 15px;
+    font-family: "JetBrains Mono", monospace;
+    text-decoration: none;
+    border-radius: 20px;
+    transition: .1s;
+}
+
+.getStarted:hover {
+    border: 2px solid #201313;
+    outline: 4px solid #CE2D2D;
+    transition: .1s;
+}
